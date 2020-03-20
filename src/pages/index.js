@@ -5,7 +5,7 @@ import Layout from "../components/Layout"
 export default () => (
   <Layout>
     <section className="flex container flex-col py-32 justify-center items-center text-center">
-      <div className="mb-16 text-xl">
+      <div className="mb-16 text-xl italic">
         A good software is a product of deep understanding and efficient
         delivery.
       </div>
