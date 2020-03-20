@@ -12,6 +12,9 @@ module.exports = {
       secondary: "#D24D57",
       subtle: "#A3ACBD",
     },
+    opacity: {
+      "95": ".95",
+    },
   },
   variants: {},
   plugins: [],
