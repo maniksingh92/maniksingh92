@@ -7,6 +7,7 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public -b master -r https://$GH_TOKEN@github.com/maniksingh92/maniksingh92.github.io.git",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
@@ -22,10 +23,11 @@
     "typeface-open-sans": "0.0.75"
   },
   "devDependencies": {
-    "prettier": "^1.19.1",
     "gatsby-plugin-purgecss": "^4.0.1",
     "gatsby-plugin-sass": "^2.1.31",
-    "node-sass": "^4.13.1"
+    "gh-pages": "^2.2.0",
+    "node-sass": "^4.13.1",
+    "prettier": "^1.19.1"
   },
   "repository": {
     "type": "git",
