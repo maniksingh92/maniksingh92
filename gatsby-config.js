@@ -5,6 +5,14 @@ module.exports = {
     siteUrl: `https://www.manik.codes`,
   },
   plugins: [
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/assets/`,
+      },
+    },
     {
       resolve: `gatsby-plugin-sass`,
       options: {
