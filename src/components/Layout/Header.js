@@ -15,6 +15,11 @@ export default function Header() {
             </Link>
           </li>
           <li>
+            <Link to="/resume/" className="mx-4">
+              Résumé
+            </Link>
+          </li>
+          <li>
             <Link to="/contact/" className="mx-4">
               Get In Touch
             </Link>
