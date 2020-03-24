@@ -6,10 +6,10 @@ export default function Header() {
     <header className="fixed top-0 left-0 right-0 py-4 font-type-header bg-dark text-light opacity-95">
       <nav className="container flex">
         <Link to="/" className="mr-auto">
-          Manik Singh
+          Manik Codes
         </Link>
         <ul className="flex">
-          <li>
+          <li className="hidden sm:inline-block">
             <Link to="/blog/" className="mx-4">
               Blog
             </Link>
@@ -19,7 +19,7 @@ export default function Header() {
               Résumé
             </Link>
           </li>
-          <li>
+          <li className="hidden sm:inline-block">
             <Link to="/contact/" className="mx-4">
               Get In Touch
             </Link>
