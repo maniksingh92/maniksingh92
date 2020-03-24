@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
+import { Link, withPrefix } from "gatsby"
 
 export default function Header() {
   return (
@@ -9,20 +9,20 @@ export default function Header() {
           Manik Codes
         </Link>
         <ul className="flex">
-          <li className="hidden sm:inline-block">
-            <Link to="/blog/" className="mx-4">
-              Blog
-            </Link>
+          <li className="hidden sm:inline-block mx-4">
+            <Link to="/blog/">Blog</Link>
           </li>
-          <li>
-            <Link to="/resume/" className="mx-4">
+          <li className="mx-4">
+            <a
+              rel="noopener noreferrer"
+              href={withPrefix("/docs/manik-singh-resume.pdf")}
+              target="_blank"
+            >
               Résumé
-            </Link>
+            </a>
           </li>
-          <li className="hidden sm:inline-block">
-            <Link to="/contact/" className="mx-4">
-              Get In Touch
-            </Link>
+          <li className="hidden sm:inline-block mx-4">
+            <Link to="/contact/">Get In Touch</Link>
           </li>
         </ul>
       </nav>
