@@ -6,8 +6,8 @@ export default () => (
   <Layout>
     <section className="flex container flex-col py-32 justify-center items-center text-center">
       <div className="mb-16 text-xl italic">
-        A good software is a product of deep understanding and efficient
-        delivery.
+        A great software is a product of profound understanding and a simple
+        design.
       </div>
       <h1 className="flex flex-col text-6xl">
         <span className="font-bold">Hello.</span>
