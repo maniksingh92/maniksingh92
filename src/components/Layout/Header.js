@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 
 export default function Header() {
   return (
-    <header className="fixed top-0 left-0 right-0 py-4 font-type-header bg-dark text-light opacity-95">
+    <header className="fixed top-0 left-0 right-0 py-4 font-type-header bg-dark text-light opacity-95 z-10">
       <nav className="container flex">
         <Link to="/" className="mr-auto">
           Manik Codes
