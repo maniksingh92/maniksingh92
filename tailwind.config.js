@@ -6,7 +6,7 @@ module.exports = {
     },
     colors: {
       transparent: "transparent",
-      brand: "#2C5C90",
+      brand: "#C03741",
       dark: "#353535",
       light: "#FFFFFF",
       secondary: "#D24D57",
