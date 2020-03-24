@@ -23,7 +23,7 @@ export default function Footer() {
     <footer className="container text-center">
       <hr />
       <div className="mt-4">Built with:</div>
-      <div className="flex justify-center items-center">
+      <div className="flex flex-wrap justify-center items-center">
         <a
           className="m-4"
           href="https://www.gatsbyjs.org/"
